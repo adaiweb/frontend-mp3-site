@@ -1,0 +1,44 @@
+.audioplayer-bar, .audioplayer-volume, .ap-time, .audioplayer-time, .ap-dl { display:none; }
+.search-input { 
+	font: 15px 'Montserrat', sans-serif;
+} 
+li.ui-menu-item {
+		text-transform: capitalize;
+	font-size:1.3em;
+			margin:10px!important;
+			font-size:1.3em!important;
+	    border-bottom: 1px solid #9B59B6!important;
+	   
+} 
+
+@media (min-width: 767px) {
+  li.ui-menu-item {
+  	 max-width: 100%;
+} 
+
+.player {
+	display:block;
+	width:100%;
+	min-width:500px;
+	margin:20px;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  li.ui-menu-item {
+  	 max-width: 295px;
+}  
+ 
+	.player {
+		display:block;
+		width:100%;
+		max-width:400px;
+		margin:20px;
+	}
+}
+
+
+.track-item a {
+	display: content !important;
+}

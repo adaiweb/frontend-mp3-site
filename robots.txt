@@ -1,0 +1,20 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /api/search.php
+Disallow: /*&search.php
+
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: *
+Disallow: /
