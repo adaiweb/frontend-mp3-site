@@ -6,9 +6,9 @@ $http_protocol = 'https://';
 
 $base_domain = 'poptik.top';
 
-$sitename = 'POP TIK.TOP 🥇';
+$sitename = 'TIK.TOP 🥇';
 
-$download_server = 'https://black.bulbul.su';
+$download_server = 'https://{download_server}';
 
 $searchtext = '';
 
