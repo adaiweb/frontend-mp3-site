@@ -4,7 +4,7 @@ ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 
 
-require_once('/var/www/MyApiFetcher/core.php');
+require_once('/var/www/ApiFetcher/core.php');
 
 require_once('app/config.php'); 
 
